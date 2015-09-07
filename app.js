@@ -5,7 +5,7 @@ var program = require('commander')
 	, username = require('username');
 
 program
-	.command('list')
+	.command('tables:describe')
 	.option('-h, --host <host>', 'Database host')
 	.option('-u, --username <username>', 'Username for selected host')
 	.option('-d, --database <database>', 'Select a database')
